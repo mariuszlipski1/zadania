@@ -8,6 +8,7 @@ public class Main {
         car.drive();
         Car electricCar = new ElectricCar("Tesla");
         electricCar.drive();
+
         //car.someMethod();
     }
 }
