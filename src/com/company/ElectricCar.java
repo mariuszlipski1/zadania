@@ -1,6 +1,8 @@
 package com.company;
 
-public class ElectricCar implements Car{
+import com.company.base.Car;
+
+public class ElectricCar implements Car {
 
     private final String brand;
 

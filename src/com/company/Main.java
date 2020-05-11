@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.base.Car;
+
 import java.util.ArrayList;
 import java.util.List;
 
