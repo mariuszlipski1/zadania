@@ -17,21 +17,19 @@ public class LegoCar implements Car {
 
     @Override
     public void drive() {
-        System.out.println("Start driving combustion car");
+        System.out.println("Start driving Lego car " + this.toString());
     }
 
     @Override
     public String toString() {
-        StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("LegoCar" + this );
-        stringBuilder.append(" ");
+        String text ="";
 
         for(LegoPart i : parts) {
             String name = i.getName();
-            stringBuilder.append(name + " ");
+            text = text + name + " ";
         }
 
-        return stringBuilder.toString();
+        return text;
     }
 
     public static class Builder implements com.company.base.Builder<LegoCar>{
