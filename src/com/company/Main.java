@@ -8,6 +8,8 @@ import com.company.lego.LegoLights;
 import com.company.lego.LegoTires;
 import com.company.lego.LegoWheels;
 
+import com.company.sport.SportNitro;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,6 +35,10 @@ public class Main {
         for (Car i: list) {
             i.drive();
         }
+
+        SportNitro nitro = new SportNitro();
+        System.out.println(nitro.indexNitro);
+        nitro.nitroDisplay();
 
 
 
