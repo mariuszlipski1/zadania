@@ -16,9 +16,9 @@ public class Main {
         System.out.println("Robienie jajecznicy");
         Scanner input = new Scanner(System.in);
         System.out.println("ilość jajek");
-        hamQuantity = input.nextInt();
-        System.out.println("ilość szynki");
         eggsQuantity = input.nextInt();
+        System.out.println("ilość szynki");
+        hamQuantity = input.nextInt();
         System.out.println("ilość kawy");
         coffeeQuantity = input.nextInt();
 

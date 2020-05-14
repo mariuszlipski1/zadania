@@ -5,6 +5,7 @@ public class Breakfast {
 
     public Breakfast(int Eggs, int Ham, int coffee){
         Scrumbless scrumbless = new Scrumbless(Eggs,Ham);
+        System.out.println(scrumbless);
         Coffee coffee1 = new Coffee(coffee);
     }
 

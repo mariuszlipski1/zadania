@@ -19,5 +19,10 @@ public class Coffee {
         return listCoffee;
     }
 
-
+    @Override
+    public String toString() {
+        return "Coffee"+hashCode()+"{" +
+                "listCoffee=" + listCoffee +
+                '}';
+    }
 }
