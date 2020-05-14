@@ -1,6 +1,17 @@
 package com.company3.scrumbleeggs;
 
 public class Breakfast {
-    Egg eggs;
-    Coffee coffee;
+    Scrumbless scrumbless;
+
+    public Breakfast(int Eggs, int Ham, int coffee){
+        Scrumbless scrumbless = new Scrumbless(Eggs,Ham);
+        Coffee coffee1 = new Coffee(coffee);
+    }
+
+    @Override
+    public String toString() {
+        return "Breakfast"+hashCode()+"{" +
+                "scrumbless=" + scrumbless +
+                '}';
+    }
 }

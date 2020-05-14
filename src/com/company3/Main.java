@@ -1,24 +1,37 @@
 package com.company3;
 
 
+import com.company3.scrumbleeggs.Breakfast;
+import com.company3.scrumbleeggs.Coffee;
 import com.company3.scrumbleeggs.Scrumbless;
 
 import java.util.Scanner;
 
 public class Main {
-    private static int quantity;
+    public static int hamQuantity;
+    public static int eggsQuantity;
+    public static int coffeeQuantity;
 
     public static void main(String[] args) {
         System.out.println("Robienie jajecznicy");
         Scanner input = new Scanner(System.in);
-        quantity = input.nextInt();
-        System.out.println(quantity);
+        System.out.println("ilość jajek");
+        hamQuantity = input.nextInt();
+        System.out.println("ilość szynki");
+        eggsQuantity = input.nextInt();
+        System.out.println("ilość kawy");
+        coffeeQuantity = input.nextInt();
+
+        Breakfast breakfast = new Breakfast(eggsQuantity,hamQuantity,coffeeQuantity);
+        System.out.println(breakfast);
+
+        //Scrumbless moja = new Scrumbless(eggsQuantity,hamQuantity);
 
 
+       // Scrumbless.avalibleQuantity(eggsQuantity);
+        //moja.avalibleQuantity(eggsQuantity);
 
 
-        Scrumbless moja = new Scrumbless();
-        moja.setQuantity(2);
 
     }
 }
