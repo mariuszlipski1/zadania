@@ -8,11 +8,12 @@ public class Coffee {
 
     public Coffee(){};
     public Coffee(int coffeeQuantity){
+        this();
+        Scrumbless.avalibleQuantity(coffeeQuantity);
         makeCoffee(coffeeQuantity);
     }
 
     public List<Coffee> makeCoffee(int i){
-
         for(int a = 0; a < i; a++){
             listCoffee.add(new Coffee());
         }

@@ -25,13 +25,5 @@ public class Main {
         Breakfast breakfast = new Breakfast(eggsQuantity,hamQuantity,coffeeQuantity);
         System.out.println(breakfast);
 
-        //Scrumbless moja = new Scrumbless(eggsQuantity,hamQuantity);
-
-
-       // Scrumbless.avalibleQuantity(eggsQuantity);
-        //moja.avalibleQuantity(eggsQuantity);
-
-
-
     }
 }

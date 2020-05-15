@@ -23,14 +23,12 @@ public class Scrumbless {
     }
 
     public List<Egg> makeEggs(int i){
-
         for(int a = 0; a < i; a++){
             listEggs.add(new Egg());
         }
         return listEggs;
     }
     public List<Ham> makeHam(int i){
-
         for(int a = 0; a < i; a++){
             listHam.add(new Ham());
         }
